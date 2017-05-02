@@ -1,4 +1,10 @@
 // styles.scss
+$main_color:		#000000;
+$background_main:	#ff6622;
 .testing {
   width: percentage(5/7);
+  background-color: $background_main;
+}
+h1{
+	color: $main_color;
 }
